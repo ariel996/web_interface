@@ -1,0 +1,69 @@
+/*
+* Author: Ariel Nana
+* Contact: arielnana913@gmail.com
+*/
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item {
+    height: 32rem;
+    background-color: #777;
+}
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+.mini-cart ul li a span {
+    background-color: #e23e1d;
+    width: 16px;
+    height: 16px;
+    font-size: 11px;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 16px;
+    position: absolute;
+    left: 16px;
+    top: -8px;
+}
+
+.mini-cart > ul > li > a {
+    font-weight: 500;
+    position: relative;
+}
+
+a {
+    color: dimgrey;
+    text-decoration: none;
+}
+a:hover {
+    color: #e23e1d;
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.mini-cart ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.text-right {
+    text-align: right!important;
+}
